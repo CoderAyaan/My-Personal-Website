@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+.line {
+    width: 60px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
+#welcome {
+    position: inherit;
+    background: linear-gradient(#ADD8E6 72%, #f4c2c2 28%);
+    height: 100%;
+    width: 100%;
+    display: table;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+}
+h1 {
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#profile {
+    border-radius: 50%;
+    border-style: dotted black;
+}
+#name {
+    font-family: cursive;
+    font-weight: 300;
+    font-size:40px;
+    font-variant: small-caps;
+}
+p{
+    font-size: 18px;
+}
+#hobby {
+    text-align: center;
+    background:#f4c2c2;
+}
+#apps{
+    background: linear-gradient(#f4c2c2 72%,#FFFFFF 28%)
+}
+#games {
+    background: linear-gradient(#FFFFFF 55%,#FFFFBF 45%)
+}
+#chatbot {
+    background:#FFFFBF
+}
+.games:hover {
+    transform: scale(0.9);
+}
