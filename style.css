@@ -25,6 +25,7 @@ h1 {
     font-weight: 300;
 }
 #profile {
+    top:50px;
     border-radius: 50%;
     border-style: dotted black;
 }
